@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 50px;
+    gap: 50px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}

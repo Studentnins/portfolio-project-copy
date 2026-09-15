@@ -4,7 +4,6 @@ body {
     background-repeat: no-repeat;
     background-color:#e6f2ee;
 
-    display: flex;
     align-items: center;
     min-height: 80vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -41,3 +40,23 @@ button {
     display: inline-block;
 }
 
+.about {
+    min-height: 100vh;
+    padding: 100px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+
+.about h2 {
+    font-size: 40px;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}

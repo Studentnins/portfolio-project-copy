@@ -15,7 +15,7 @@ body {
 .profile {
     display: block;
     margin: 0 auto;
-    border-radius: 50%;
+    border-radius: 20%;
     border: 4px solid #354482;
     padding: 5px;
     
@@ -66,7 +66,7 @@ button {
     min-height: 10vh;
     box-sizing: border-box;
     
-    padding: 70px;
+    padding: 50px;
     background-color: #2f2a48;
     color: white;
 
@@ -80,14 +80,13 @@ button {
     display: grid;
     /*adding grid-template-columns to create a 4-column layout*/
     grid-template-columns: repeat(4,1fr);
-    gap: 20px;
+    gap: 30px;
 }
 .about-box {
-    background-color: #b6b6e0a4;
-    padding: 20px;
-    width: 200px;
+    padding: 30px;
+    width: auto; /*soo able can udjust size on prefference*/
     border-radius: 10px;  /*soo that i can udjust sharpness on my edges*/
-    border: 3px solid #bfc1c7;
+    border: 2px solid #bfc1c7;
 }
 
 .about h2 {

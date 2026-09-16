@@ -86,11 +86,13 @@ button {
     gap: 30px;
 }
 .about-box {
-    padding: 30px;
+    min-height: 160px;
+    padding: 30px 15px; /*15px able can udjust size on prefference*/
     width: auto; /*soo able can udjust size on prefference*/
-    border-radius: 15px;  /*soo that i can udjust sharpness on my edges*/
+    border-radius: 20px;  /*soo that i can udjust sharpness on my edges*/
     border: 2px solid #bfc1c7;
 }
+
 
 .about h2 {
     font-size: 40px;

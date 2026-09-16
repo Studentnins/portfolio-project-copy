@@ -66,12 +66,24 @@ button {
     min-height: 10vh;
     box-sizing: border-box;
     
-    padding: 100px;
+    padding: 80px;
     background-color: #222;
     color: white;
 
     text-align: center;
     align-items: left;
+}
+.about-container{
+    max-width: 1200px;
+    margin-top: 0 auto;
+    
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.about-box {
+    padding: 20px;
 }
 
 .about h2 {

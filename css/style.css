@@ -66,24 +66,28 @@ button {
     min-height: 10vh;
     box-sizing: border-box;
     
-    padding: 80px;
-    background-color: #222;
+    padding: 70px;
+    background-color: #2f2a48;
     color: white;
 
     text-align: center;
     align-items: left;
 }
 .about-container{
-    max-width: 1200px;
+    max-width: auto;
     margin-top: 0 auto;
     
-
     display: grid;
+    /*adding grid-template-columns to create a 4-column layout*/
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
 }
 .about-box {
+    background-color: #b6b6e0a4;
     padding: 20px;
+    width: 200px;
+    border-radius: 10px;  /*soo that i can udjust sharpness on my edges*/
+    border: 3px solid #bfc1c7;
 }
 
 .about h2 {
@@ -91,7 +95,7 @@ button {
 }
 
 .about p {
-    font-size: 18px;
+    font-size: 12px;
     max-width: 700px;
     margin: 20px auto;
     line-height: 1.6;
